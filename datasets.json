@@ -3,7 +3,7 @@
             {
                 "name": "Data on three-year flowering intensity monitoring in an apple orchard: A collection of RGB images acquired from unmanned aerial vehicles",
                 "author": "Chenglong Zhang, João Valente, Wensheng Wang, Pieter van Dalfsen, Peter Frans de Jong, Bert Rijk, Lammert Kooistra",
-                "date": [2018, 2019, 2020],
+                "date":"2024-07-31",
                 "link": "https://www.sciencedirect.com/science/article/pii/S2352340923004754",
                 "description": "The dataset contains UAV images captured during the full blooming period in an apple orchard over three consecutive years (2018-2020). It is linked to research on quantifying flower intensity using UAV RGB imagery. This data can be utilized in the fields of remote sensing, machine vision, deep learning, and precision horticulture for flowering intensity estimation and prediction.",
                 "parameters": {
@@ -29,7 +29,7 @@
                 {
                     "name": "Test 2",
                     "author": "Chenglong Zhang, João Valente, Wensheng Wang, Pieter van Dalfsen, Peter Frans de Jong, Bert Rijk, Lammert Kooistra",
-                    "date": [2018, 2019, 2020],
+                    "date":"2024-07-31",
                     "link": "https://www.sciencedirect.com/science/article/pii/S2352340923004754",
                     "description": "The dataset contains UAV images captured during the full blooming period in an apple orchard over three consecutive years (2018-2020). It is linked to research on quantifying flower intensity using UAV RGB imagery. This data can be utilized in the fields of remote sensing, machine vision, deep learning, and precision horticulture for flowering intensity estimation and prediction.",
                     "parameters": {
@@ -45,7 +45,7 @@
                     {
                         "name": "Test 3",
                         "author": "Chenglong Zhang, João Valente, Wensheng Wang, Pieter van Dalfsen, Peter Frans de Jong, Bert Rijk, Lammert Kooistra",
-                        "date": [2018, 2019, 2020],
+                        "date":"2024-07-31",
                         "link": "https://www.sciencedirect.com/science/article/pii/S2352340923004754",
                         "description": "The dataset contains UAV images captured during the full blooming period in an apple orchard over three consecutive years (2018-2020). It is linked to research on quantifying flower intensity using UAV RGB imagery. This data can be utilized in the fields of remote sensing, machine vision, deep learning, and precision horticulture for flowering intensity estimation and prediction.",
                         "parameters": {
