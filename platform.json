@@ -1,0 +1,639 @@
+[
+    {
+        "title":"Test 1",
+        "creator": "Jurrian Doornbos",
+        "date": "26/1/2024",
+        "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+        "url": "https://github.com/ICAERUS-EU/uavgeo",
+        "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+        "uses_cases":["1"],
+        "description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM.",
+        "filters":{
+            "content": [
+                "Vegetation Index",
+                "Orthomosaic processing toolbox"
+            ],  
+            "data_type": [
+                "Multispectral images",
+                "Orthomosaic"
+            ],
+            "subject": [
+                "Vineyards",
+                "Drone spraying",
+                "Forestry"
+            ],
+            "location": [
+                "Global"
+            ],
+            "model_input": ["Orthomosaic"],
+            "model_output": ["DTM", "CHM", "Spectral Index", "DEM"]
+        }
+    },
+    {
+        "title":"Test 2",
+        "creator": "Jurrian Doornbos",
+        "date": "26/1/2024",
+        "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+        "url": "https://github.com/ICAERUS-EU/uavgeo",
+        "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+        "uses_cases":["1"],
+        "description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM.",
+        "filters":{
+            "content": [
+                "Vegetation Index",
+                "Orthomosaic processing toolbox"
+            ],  
+            "data_type": [
+                "Multispectral images",
+                "Orthomosaic"
+            ],
+            "subject": [
+                "Vineyards",
+                "Drone spraying",
+                "Forestry"
+            ],
+            "location": [
+                "Global"
+            ],
+            "model_input": ["Orthomosaic"],
+            "model_output": ["DTM", "CHM", "Spectral Index", "DEM"]
+        }
+    },
+    {
+        "title": "Plant location from row-view to global-view",
+        "creator": "Esther Vera",
+        "date": "18/04/2024",
+        "icon": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/assets/148956768/45bb4e03-64e1-447e-b34d-91a967e63bd6",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/02_plant_locator_v1",
+        "icaerus_applications": [
+            "crop-monitoring"
+        ],
+        "uses_cases": [
+            "1"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Location",
+                "Analysis",
+                "Identification", 
+                "Orthomosaic"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Vineyards"
+            ],
+            "location": [
+                "Spain"
+            ]
+        }
+    },
+
+    {
+        "title": "Plant locator from row-view to global-view -> grid",
+        "creator": "Esther Vera",
+        "date": "12/02/2024",
+        "icon": "https://github.com/user-attachments/assets/5d6a953b-b82b-4b3d-8b7b-e5b7ec3c204d",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/02_plant_locator_v2",
+        "icaerus_applications": [
+            "crop-monitoring"
+        ],
+        "uses_cases": [
+            "1"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Location",
+                "Analysis",
+                "Identification", 
+                "Grid", 
+                "Orthomosaic"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Vineyards"
+            ],
+            "location": [
+                "Spain"
+            ]
+        }
+    },    
+    {
+        "title": "Plant leaves analysis",
+        "creator": "Esther Vera",
+        "date": "17/10/2024",
+        "icon": "https://github.com/user-attachments/assets/8a529b11-5e3c-45c2-afcd-ff0b87f15d0a",
+        "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/03_plant_leaves_analysis_v1",
+        "icaerus_applications": [
+            "crop-monitoring"
+        ],
+        "uses_cases": [
+            "1"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Computer vision",
+                "Clusterization",
+                "Analysis",
+                "VARI",
+                "KMeans"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Vineyards leaves"
+            ],
+            "location": [
+                "Spain"
+            ]
+        }
+  },
+  {
+    "title": "Drone simulation with ROS2 and Sphinx in a vineyard model",
+    "creator": "Esther Vera",
+    "date": "14/01/2025",
+    "icon": "https://github.com/user-attachments/assets/dc4cdf4b-6fd8-4c92-9c87-0053435706af",
+    "url": "https://github.com/ICAERUS-EU/UC1_Crop_Monitoring/tree/main/models/04_drone_simulation_v1",
+    "icaerus_applications": [
+        "crop-monitoring"
+    ],
+    "uses_cases": [
+        "1"
+    ],
+    "extra": {
+        "key1": "",
+        "key2": ""
+    },
+    "filters": {
+        "content": [
+            "Computer vision",
+            "ROS2",
+            "Sphinx",
+            "Simulation",
+            "3D model"
+        ],
+        "data-type": [
+            "RGB images"
+        ],
+        "subject": [
+            "Drone simulation"
+        ],
+        "location": [
+            "Spain"
+        ]
+     }
+  },
+  {
+      "title":"uavgeo",
+      "creator": "Jurrian Doornbos",
+      "date": "26/1/2024",
+      "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
+      "url": "https://github.com/ICAERUS-EU/uavgeo",
+      "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
+      "uses_cases":["1"],
+      "extra":{
+          "usage/description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM."
+      },
+      "filters":{
+          "content": [
+              "Vegetation Index",
+              "Orthomosaic processing toolbox"
+              ],  
+          "data-type": [
+              "Multispectral images",
+              "Orthomosaic"
+          ], 
+    
+          "subject": [
+              "Vineyards",
+              "Drone spraying",
+              "Forestry"
+          ],
+    
+          "location": [
+              "Global"
+              ]
+            }
+    },
+    {
+        "title": "Cow detection model v1",
+        "creator": "Louise Helary",
+        "date": "06/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v1",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Cattle"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Cow detection model v2",
+        "creator": "Louise Helary",
+        "date": "25/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/e49eead8-32ee-46da-9b04-e10a8585c974",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/01_cow_detection_v2",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Cattle"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Sheep detection model v1",
+        "creator": "Louise Helary",
+        "date": "25/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v1",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Sheep detection model v2",
+        "creator": "Louise Helary",
+        "date": "25/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/7ffcc2e8-23a6-4823-b98c-f25ad3c30a97",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/models/02_sheep_detection_v2",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Sheep counter on a line",
+        "creator": "Louise Helary",
+        "date": "25/03/2024",
+        "icon":"https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/assets/99217487/51c1bb78-1716-4bf3-bcc3-dce32a0c2810",
+        "url": "https://github.com/ICAERUS-EU/UC3_Livestock_Monitoring/tree/main/application/sheep_counting",
+        "icaerus_applications": [
+            "livestock-monitoring"
+        ],
+        "uses_cases": [
+            "3"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection",
+                "Tracking",
+                "Counting"
+            ],
+            "data-type": [
+                "RGB images"
+            ],
+            "subject": [
+                "Sheep"
+            ],
+            "location": [
+                "France"
+            ]
+        }
+    },
+    {
+        "title": "Wild Boar Detection and Counting Models Using YOLOv5",
+        "creator": "ART21",
+        "date": "12/12/2024",
+        "icon": "",
+        "url": "https://github.com/ICAERUS-EU/UC4_Forestry_and_Biodiversity/tree/main/models/01_boar_detector_v1",
+        "icaerus_applications": [
+            "biodiversity monitoring"
+        ],
+        "uses_cases": [
+            "4"
+        ],
+        "extra": {
+            "key1": "",
+            "key2": ""
+        },
+        "filters": {
+            "content": [
+                "Deep learning",
+                "Computer vision",
+                "Detection"
+            ],
+            "data-type": [
+                "Thermal images with white-hot color pallete"
+            ],
+            "subject": [
+                "Wild Boars in Forests and Fields"
+            ],
+            "location": [
+                "Lithuania"
+            ]
+        }
+    },
+    {
+        "title": "Math_Combinatorics",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/math_combinations.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/03_MM_combinations_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Provides functionality to find all combinations and permutations given a set and subset size."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Framework"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"                
+            ]
+        }
+    },
+    {
+        "title": "Vehicle Routing Problem with Pickups and Deliveries (VRPPD)",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/vrp_pickup_delivery_solution.svg",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/04_cvrp_pickup_delivery_distance_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solution to the Vehicle Routing Problem with Pickups and Deliveries (VRPPD) using Google OR-Tools."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Networking",
+                "Flight control"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Genetic Algorithm for Traveling Salesman Problem (TSP)",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/genetic_algorithm.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/05_MM_genetic_algorithm_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using a Genetic Algorithm (GA)."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Genetic Algorithms"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Ant Colony Optimization Algorithm",
+        "creator": "kgrigor@geosense.gr",
+        "date": "10/06/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/ant_colony.svg",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/01_MM_ant_colony_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves optimization problems using Ant Colony Optimization (ACO) algorithm."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "Ant Colony Optimization"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "Python TSP Solver",
+        "creator": "FrickTobias, luanleonardo",
+        "date": "10/06/2024",
+        "icon": "https://daedalus.geosenseapps.com/models/images/traveling-salesman-problem.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/02_MM_tsp_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "TSP Solver"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    },
+    {
+        "title": "DeaDaLuS Decision Support System",
+        "creator": "Kostas Grigoriadis - kgrigor@geosense.gr",
+        "date": "10/02/2025",
+        "icon": "https://daedalus.geosenseapps.com/models/images/daedalus_DSS_logo.png",
+        "url": "https://github.com/ICAERUS-EU/UC5_Rural_Logistics/tree/main/models/06_DSS_v1",
+        "icaerus_applications": [
+            "DaeDaLuS - Drone Delivery Logistic Services"
+        ],
+        "uses_cases": [
+            5
+        ],
+        "extra": {
+            "description": "Solves the Traveling Salesman Problem (TSP) using various methods, including dynamic programming and local search."
+        },
+        "filters": {
+            "content": [
+                "Simulations",
+                "Path planning",
+                "TSP Solver"
+            ],
+            "data-type": [
+                "N/A"
+            ],
+            "subject": [
+                "Rural Logistics"
+            ],
+            "location": [
+                "Greece",
+                "North Macedonia"
+            ]
+        }
+    }
+]
