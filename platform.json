@@ -6,7 +6,7 @@
         "icon":"https://github.com/ICAERUS-EU/uavgeo/blob/main/docs/images/ndvi_ico.jpg?raw=true",
         "url": "https://github.com/ICAERUS-EU/uavgeo",
         "icaerus_applications": ["crop-monitoring","drone-spraying","forestry-and-biodiversity"],
-        "uses_cases":["1"],
+        "uses_cases":["OCT"],
         "description": "A UAV-specific Python image processing library built upon xarray and geopandas. Containing over 30 spectral indices and other orthomosaic processing tools, such as autmoated leaf-shadow classification and DEM creation from a DSM.",
         "filters":{
             "content": [
